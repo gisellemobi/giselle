@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8D2EE0A31AD9C15F00111FC6 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EE0A21AD9C15F00111FC6 /* ChecklistItem.swift */; };
+		8D304F0B1B02FDE700A396AF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D304F0A1B02FDE700A396AF /* SwiftyJSON.swift */; };
+		8D304F0D1B03037700A396AF /* UberProducts.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D304F0C1B03037700A396AF /* UberProducts.json */; };
+		8D304F0F1B03059F00A396AF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D304F0E1B03059F00A396AF /* DataManager.swift */; };
+		8D304F111B03136A00A396AF /* uberProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D304F101B03136A00A396AF /* uberProductModel.swift */; };
 		8D3FF9A51AD6F7BC005F0A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3FF9A41AD6F7BC005F0A7A /* AppDelegate.swift */; };
 		8D3FF9A71AD6F7BC005F0A7A /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3FF9A61AD6F7BC005F0A7A /* ChecklistViewController.swift */; };
 		8D3FF9AA1AD6F7BC005F0A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3FF9A81AD6F7BC005F0A7A /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		8D2EE0A21AD9C15F00111FC6 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		8D304F0A1B02FDE700A396AF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8D304F0C1B03037700A396AF /* UberProducts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UberProducts.json; sourceTree = "<group>"; };
+		8D304F0E1B03059F00A396AF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8D304F101B03136A00A396AF /* uberProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uberProductModel.swift; sourceTree = "<group>"; };
 		8D3FF99F1AD6F7BC005F0A7A /* Giselle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giselle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3FF9A31AD6F7BC005F0A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D3FF9A41AD6F7BC005F0A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +79,7 @@
 		8D3FF9961AD6F7BC005F0A7A = {
 			isa = PBXGroup;
 			children = (
+				8D304F0A1B02FDE700A396AF /* SwiftyJSON.swift */,
 				8D3FF9A11AD6F7BC005F0A7A /* Giselle */,
 				8D3FF9B71AD6F7BD005F0A7A /* GiselleTests */,
 				8D3FF9A01AD6F7BC005F0A7A /* Products */,
@@ -89,6 +98,7 @@
 		8D3FF9A11AD6F7BC005F0A7A /* Giselle */ = {
 			isa = PBXGroup;
 			children = (
+				8D304F0C1B03037700A396AF /* UberProducts.json */,
 				8D3FF9A41AD6F7BC005F0A7A /* AppDelegate.swift */,
 				8D3FF9A61AD6F7BC005F0A7A /* ChecklistViewController.swift */,
 				8D3FF9A81AD6F7BC005F0A7A /* Main.storyboard */,
@@ -101,6 +111,8 @@
 				8DC39BF81AE4C5D000B34F24 /* ListDetailViewController.swift */,
 				8D4EDFD41AE5C3B000C583D6 /* DataModel.swift */,
 				8D4EDFD61AE5E53F00C583D6 /* IconPickerViewController.swift */,
+				8D304F0E1B03059F00A396AF /* DataManager.swift */,
+				8D304F101B03136A00A396AF /* uberProductModel.swift */,
 			);
 			path = Giselle;
 			sourceTree = "<group>";
@@ -212,6 +224,7 @@
 			files = (
 				8D3FF9AA1AD6F7BC005F0A7A /* Main.storyboard in Resources */,
 				8D3FF9AC1AD6F7BC005F0A7A /* Images.xcassets in Resources */,
+				8D304F0D1B03037700A396AF /* UberProducts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3FF9A71AD6F7BC005F0A7A /* ChecklistViewController.swift in Sources */,
+				8D304F111B03136A00A396AF /* uberProductModel.swift in Sources */,
 				8DC39BF91AE4C5D000B34F24 /* ListDetailViewController.swift in Sources */,
 				8DB2310A1ADB4AB600831F31 /* ItemDetailViewController.swift in Sources */,
+				8D304F0B1B02FDE700A396AF /* SwiftyJSON.swift in Sources */,
 				8D4EDFD71AE5E53F00C583D6 /* IconPickerViewController.swift in Sources */,
 				8DC39BF71AE4BED700B34F24 /* Checklist.swift in Sources */,
 				8D2EE0A31AD9C15F00111FC6 /* ChecklistItem.swift in Sources */,
 				8D4EDFD51AE5C3B000C583D6 /* DataModel.swift in Sources */,
+				8D304F0F1B03059F00A396AF /* DataManager.swift in Sources */,
 				8DC39BF51AE47B5800B34F24 /* AllListsViewController.swift in Sources */,
 				8D3FF9A51AD6F7BC005F0A7A /* AppDelegate.swift in Sources */,
 			);
