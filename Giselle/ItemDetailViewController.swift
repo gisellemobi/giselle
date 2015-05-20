@@ -120,7 +120,7 @@ class ItemDetailViewController: UITableViewController, UITextFieldDelegate {
         let session = NSURLSession.sharedSession()
         // API 7-Step Request process: step 4 create the NSURLRequest using properly escaped URL
         //let urlString = BASE_URL + escapedParameters(methodArguments)
-        let urlString = "https://api.uber.com/v1/products?latitude=37.775253&longitude=-122.417541&server_token=k1XYGi-SS27R5Higux7lJDgrZwfpNJs-hkQd8kJG"
+        let urlString = "https://api.uber.com/v1/products?latitude=37.775253&longitude=-122.417541&server_token=yourServerToken"
         let url = NSURL(string: urlString)!
         let request = NSURLRequest(URL: url)
         // API 7-Step Request process: step 5 create NSURLSessionDataTask and completion handler

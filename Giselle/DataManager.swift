@@ -8,7 +8,7 @@
 
 import Foundation
 
-let UberProductURL = "https://api.uber.com/v1/products?latitude=37.775253&longitude=-122.417541&server_token=k1XYGi-SS27R5Higux7lJDgrZwfpNJs-hkQd8kJG"
+let UberProductURL = "https://api.uber.com/v1/products?latitude=37.775253&longitude=-122.417541&server_token=yourServerToken"
 
 class DataManager {
     class func getTopUberDataFromFileWithSuccess(success: ((data: NSData) -> Void)) {
